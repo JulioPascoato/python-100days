@@ -39,7 +39,7 @@ while True:
         cookie_upgrades = {}
         for n in range(len(item_prices)):
             cookie_upgrades[item_prices[n]] = item_ids[n]
-        print(cookie_upgrades)
+        print(cookie_upgrades'')
 
         # Get current cookie count
         money_element = driver.find_element(By.ID, "money").text
