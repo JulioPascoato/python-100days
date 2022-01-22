@@ -21,7 +21,7 @@ def checking_number(guess_number):
     elif guess_number > random_number:
         return f"<h1 style='color: purple'>{guess_number} is too high, try again!</h1>" \
                "<img src='https://media.giphy.com/media/3o6ZtaO9BZHcOjmErm/giphy.gif'>"
-    
+
     else:
         return "<h1 style='color: green'>You found me!</h1>" \
                "<img src='https://media.giphy.com/media/4T7e4DmcrP9du/giphy.gif'>"
